@@ -346,7 +346,7 @@ Shakya(adi1090x, creator of arch craft)
 {#each images as image}
 	<div class="responsive">
 		<div class="gallery">
-			<a target="_blank" href="img_5terre.jpg">
+			<a target="_blank" href={image.link}>
 				<img src={image.link} alt={image.name} width="600" height="400" />
 			</a>
 			<div class="desc">{image.name}</div>
